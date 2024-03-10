@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="STest Suite 2" verbose="1">
+    <parameter name="param1" value="param1 value">param1</parameter>
+    <parameter name="param2" value="param2 value">param2</parameter>
+    <test name="Test Suite 2">
+        <classes>
+            <class name="nz.co.ruben.project.packagetwo.TestTwo"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Test Suite" verbose="2" preserve-order="true" parallel="methods" thread-count="2">
+    <suite-files>
+        <suite-file path="./java/nz/co/ruben/project/packageone/test-one-testng.xml"/>
+        <suite-file path="./java/nz/co/ruben/project/packagetwo/test-two-testng.xml"/>
+        <suite-file path="./java/nz/co/ruben/project/packagethree/test-three-testng.xml"/>
+    </suite-files>
+</suite>

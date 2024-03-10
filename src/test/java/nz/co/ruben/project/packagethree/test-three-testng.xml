@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite 3" verbose="1">
+    <test name="Test Suite 3">
+        <classes>
+            <class name="nz.co.ruben.project.packagethree.TestThree"/>
+        </classes>
+    </test>
+</suite>
