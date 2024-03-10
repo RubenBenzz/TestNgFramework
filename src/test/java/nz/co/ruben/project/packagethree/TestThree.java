@@ -5,7 +5,11 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 /**
- * Using dataProvider -
+ * Using dataProvider - create a method with return type as Object[][] which os a 2-dimensional Object.
+ * Define variables inside curly braces just the way you do for any other array.
+ * Each curly brace block forms 1 test case for the Test method which uses the data provider method.
+ * Test method needs to use the name of the data provider to be able to use the parameters defined in
+ * data provider method.
  */
 public class TestThree {
 
